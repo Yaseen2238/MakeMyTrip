@@ -1,0 +1,1177 @@
+
+        body{
+    background-image: linear-gradient(to bottom,black,#15457c);
+    background-size: 100% 530px;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+        }
+      
+        .clr{
+            clear: both;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .wrapper{
+            width: 1100px;
+            margin: auto;
+        }
+       
+        .logo{
+            display: inline-block;
+        }
+        .logo img{
+            width: 100px;
+            height: 36px;
+            background-size: 100% 100%;
+        }
+
+
+
+        .myIcon,.twitterIcon,.facebookIcon{
+background:url(../images/sprite2.webp);
+background-repeat: no-repeat;
+background-size: 200px 700px;
+        }
+        .navIcon{
+            background: url(../images/sprite.webp);
+            background-repeat: no-repeat;
+            background-size: 300px  400px;
+        }
+
+        .myIcon{
+            display: inline-block;
+    background-position: -67px -489px;
+    height: 22px;
+    width: 23px;
+  margin-right: 5px;
+        }
+
+
+        .myTripsIcon{
+         display: inline-block;
+            width: 50px;
+    height: 35px;
+    background-position: -122px -30px;
+
+        }
+        .topNav1{
+            
+            float: right;
+            list-style-type: none;
+        }
+        .logoList{
+        float:left;
+        display:inline-block;
+        }
+        .logoList span{
+        color:white;
+        }
+        .topNav1 a{
+            display: inline-block;
+        }
+        .topNav1 li,.navUlInBanner li{
+            float: left;
+            margin-right: 15px;
+        }
+
+     .logOrCreateSpan{
+        float: right;
+     }
+     .userName{
+     float:right;
+    
+     font-size: 20px;
+     color:white;
+     }
+     .manageBookingSpan{
+        font-size: 12px;
+        color: #cec5c5;
+
+     }
+     .loginOrCreate{
+        padding: 5px;
+        background: linear-gradient(93deg,#53b2fe,#065af3);
+        border-radius: 3px;
+     }
+     .loginOrCreate :hover{
+        cursor: pointer;
+       
+     }
+
+     .headBanner{
+        margin-top: 50px;
+        width: 1100px;
+        position: relative;
+     }
+     .navInBanner{
+        width: 980px;
+        margin: auto;
+        background: white;
+   
+     }
+
+     .infoOfSelectedOption{
+        background: white;
+        width: 1080px;
+        padding: 30px 10px 30px 10px;
+         border-radius: 10px;   
+     }
+     .navUlInBanner {
+        list-style-type: none;
+        color: black;
+     }
+     .navUlInBanner a,.oneWayOrRoundList a{
+        color: black;
+     }
+     .navUlInBanner li{
+        margin-right: 35px;
+     }
+     .navUlInBanner a:hover{
+        color: rgb(0, 139, 245);
+        text-decoration:underline
+     }
+
+      .navIcon{
+        display: block;
+        margin: auto;
+        width: 50px;
+height: 35px;
+
+     }
+     .flightIconInNav{
+        background-position: 0 -37px;
+
+     }
+     .hotelIconInNav{
+     
+        background-position: -44px -37px;
+     }
+     .HomeIconInNav{
+     background-position: -105px -153px;
+     }
+     
+    
+    .holidayIconInNav{
+       
+        background-position: -70px -235px;
+    
+    }
+    .trainIconInNav{
+        width: 40px;
+       background-position: -179px -37px;
+    }
+    .busIconInNav{
+        width: 33px;
+    background-position: -121px -38px;
+    }
+     .cabIconInNav{
+        width: 33px;
+        background-position: -154px -39px;
+     }
+     
+    
+    .forexIconInNav{
+        width: 40px;
+        background-position: -132px -235px;
+
+    }
+    .charterIconInNav{
+    
+        width: 40px;
+        background-position: -122px -72px;
+    }
+    .activitiesIconInNav{
+        width: 40px;
+        background-position: -207px -72px;
+    }
+ .navInBanner{
+    border: 1px solid black;
+    border-radius: 10px;
+ }
+.searchPannerlForFlight{
+    width: 1060px;
+    margin: 100px auto;
+   
+    border: 1px solid black;
+    height: 100px;
+    
+   
+   
+}
+.hotelLocation{
+    width: 300px;
+    border-right:1px solid black;
+    float: left;
+    height: 100px;
+}
+#cityPropertlocation{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 10px 10px;
+    color: gray;
+    padding: 5px 0 0 0;
+}
+#cityNameInSearchHotel{
+   
+    font-size: 30px;
+    font-weight: 700;
+    margin:0 0 0 10px;
+}
+#countryNameInSearchHotel{
+    font-size: 15px;
+    font-weight: 700;
+    margin:0 0 0 10px;
+    color: gray;
+    padding: 0 0 5px 0;
+}
+.checkInDiv,.checkOutDiv,.pricePerNight,.roomsAndGuests{
+    float: left;
+    border-right: 1px solid black;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+}
+.pricePerNight{
+    width: 200px;
+    border-right: none;
+}
+.roomsAndGuests{
+   width: 250px;
+}
+.navInBanner{
+    position: absolute;
+    top: -50px;
+    left:50px;
+
+}
+.searchIconInBanner{
+    position: absolute;
+    right: 440px;
+    bottom: -15px;
+    border-radius: 150px;
+    text-align: center;
+        background-image: linear-gradient(93deg,#53b2fe,#065af3);
+}
+.searchIconInBanner:HOVER{
+	cursor: pointer;
+}
+.searchIconInBanner p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 50px;
+    
+}
+
+/*section starts*/
+
+.adminDashboard{
+	display:none;
+	background:white;
+	margin-top:100px;
+	width:100%;
+	padding:5px;
+	
+}
+.addHotels,.addFlights{
+	float:left;
+	width:300px;
+	border:1px solid black;	
+	padding:5px;
+	text-align:center;
+	margin-right: 20px;
+}
+.hotelImage img,.flightImage img{
+	width:280px;
+	height:230px;
+	margin:auto;
+}
+.addButton,.deleteButton{ 
+	display: inline-block;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-image: linear-gradient(to bottom,black,#15457c);
+    color: white;
+    padding: 5px 10px;
+}
+.addButton:hover{
+    background-image: linear-gradient(to left,#359c35,#007a00);
+}
+.deleteButton:hover{
+    background-image: linear-gradient(to left,#ff5050,#d67a7a);
+}
+#invalidHotelDetails,#invalidRoomDetails{
+	display:none;
+	
+}
+
+.hotelErrorMessage,.roomErrorMessage{
+	    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 30px;
+    color: red;
+}
+
+
+/*admin dashboard stops*/
+
+#logoutForm
+{
+	display:none;
+}
+.userName{
+	color:white;
+}
+.bookSuccess{
+	    color: #189a00;
+    margin-top: 50px;
+    text-align: center;
+}
+.yourTrips{
+	font-size:30px;
+	background:black;
+	text-align:center;
+	   margin-top: 105px;
+	   color:white;
+	   border-radius:10px;
+	
+}
+
+
+
+
+
+
+
+
+/*login and regisytration starts*/
+
+ /* -----login overlay start-------*/
+ #overlay{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .8;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+span.loginNow{
+    
+  color: blue;
+   font-family: sans-serif;
+   font-size: 20px;
+   font-weight: bolder;
+}
+
+
+#loginPage{
+    display: none;
+    border-radius: 20px;
+    display: none;
+    z-index: 5;
+    background: white;
+    position: fixed;
+    margin: auto;
+    width: 425px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    text-align: center;
+   /* top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+    padding: 20px;
+    height: 220px;*/
+}
+#invalidLoginPassword{
+	margin-top:76px;
+}
+
+hr.loginHeadHorizontalLine{
+    margin-bottom: 20px;
+}
+#loginPage input{
+    width: 200px;
+    padding: 5px;
+    background: whitesmoke;
+    border: 1px solid black;
+}
+
+
+#loginPage button.loginButton{
+    background:linear-gradient(93deg,#53b2fe,#065af3);
+    color: white;
+    width: 150px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
+#closeButton img{
+   height: 30px;
+    color: white;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+   
+}
+#closeButton{
+    font-size: 25px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background: black;
+    color: white;
+    width: 40px;
+    height: 30px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+p.dontHaveAccount{
+    color: black;
+    font-size: 12px;
+    margin-top: 10px;
+    
+} 
+
+p.dontHaveAccount a{
+    
+    color: black;
+
+}
+p.dontHaveAccount a:hover{
+    text-decoration:underline;
+    color: rgb(235, 68, 8);
+}
+
+
+/* -----login overlay End-------*/
+
+
+    
+  /* -----registration overlay Start-------*/
+#registerPage{
+    display: none;
+    z-index: 5;
+    background: white;
+    position: fixed;
+    margin: auto;
+    width: 420px;
+    border-radius: 15px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   padding: 25px 40px;
+   /* top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    height: 400px;*/
+
+}
+hr.registerHeadHorizontalLine{
+    margin-bottom: 20px;
+}
+#registerPage input,#selectUserType,#selectGender{
+    float: right;
+    width: 410px;
+    border: 1px solid black;
+    background: whitesmoke;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+}
+#selectUserType,#selectGender{
+    width: 420px;
+}
+
+
+/*#registerPage label{
+    display: inline-block;
+    margin-bottom: 19px;
+}*/
+
+.registerToA1Gym{
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.registerButton{
+    background:linear-gradient(93deg,#53b2fe,#065af3);
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+.cancelButton{
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+}
+a.cancelButton{
+	display:inline-block;
+	text-align:center;
+	 background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+}
+#resetButton{
+    background-color: white;
+    color: black;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+p.haveAccount{
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    
+} 
+
+p.haveAccount a{
+    
+    color: black;
+
+}
+p.haveAccount a:hover{
+    text-decoration:underline;
+    color: rgb(235, 68, 8);
+}
+
+
+ .errorMessage{
+    
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+   
+    margin-top: 30px; 
+   
+}
+
+.loginDetails{
+    margin-bottom: 20px;
+}
+
+div.loginDetails p.errorMessage,.errorMessage{
+    display: none;
+    color: red;
+    text-align: center;
+font-size: 12px;
+position: absolute;
+top:70px;
+margin-left: 148px;
+}
+
+
+
+/* add hotels page*/
+
+ /* -----add hotels details Start-------*/
+  
+#addHotelsPage{
+    display: none;
+    z-index: 5;
+    background: white;
+    position: fixed;
+    margin: auto;
+    width: 420px;
+    border-radius: 15px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   padding: 25px 40px;
+   /* top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    height: 400px;*/
+
+}
+hr.hotelHeadHorizontalLine{
+    margin-bottom: 20px;
+}
+#addHotelsPage input,#selectUserType,#selectGender{
+    float: right;
+    width: 410px;
+    border: 1px solid black;
+    background: whitesmoke;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+}
+#selectUserType,#selectGender{
+    width: 420px;
+}
+
+
+/*#registerPage label{
+    display: inline-block;
+    margin-bottom: 19px;
+}*/
+
+.hotelDetails{
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.registerButton{
+    background:linear-gradient(93deg,#53b2fe,#065af3);
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+.cancelButton{
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+}
+#resetButton{
+    background-color: white;
+    color: black;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+p.haveAccount{
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    
+} 
+
+p.haveAccount a{
+    
+    color: black;
+
+}
+p.haveAccount a:hover{
+    text-decoration:underline;
+    color: rgb(235, 68, 8);
+}
+
+
+ .errorMessage{
+    
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+   
+    margin-top: 30px; 
+   
+}
+.loginDetails{
+    margin-bottom: 20px;
+}
+
+div.loginDetails p.errorMessage{
+    display: none;
+    color: red;
+    text-align: center;
+font-size: 12px;
+position: absolute;
+top:70px;
+margin-left: 148px;
+}
+
+
+
+/* add hotels page*/
+
+#addHotelsPage, #addRoomsPage,#deleteHotel {
+    display: block;
+    z-index: 5;
+    background: white;
+    position: fixed;
+    margin: auto;
+    width: 420px;
+    border-radius: 15px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   padding: 25px 40px;
+   /* top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    height: 400px;*/
+}
+#addRoomsPage{
+	display:block;
+}
+
+hr.hotelHeadHorizontalLine{
+    margin-bottom: 20px;
+}
+.hotelDetailDIv select,#addRoomsPage input {
+    float: right;
+    width: 420px;
+    border: 1px solid black;
+    background: whitesmoke;
+    padding: 5px;
+    margin-bottom: 20px; 
+}
+#addRoomsPage input{
+	   width: 410px;
+}
+.hotelAmenities,.roomDescription{
+	height:50px;
+}
+/*#registerPage label{
+    display: inline-block;
+    margin-bottom: 19px;
+}*/
+
+.hotelDetails,.roomDetails{
+    text-align: center;
+    color: blue;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.addRoomsButton,.addMoreRoomsButton{
+    background:linear-gradient(93deg,#53b2fe,#065af3);
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.addMoreRoomsButton{
+	display:none;
+}
+
+.backHome{
+  background-image: linear-gradient(to bottom,black,#15457c);
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    float:right;
+    display:none;
+}
+#addRoomsButton{
+	margin-left:50px;
+}
+
+.backButton{
+    background-color: black;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 50px;
+}
+#addMoreButton{
+	display:none;
+}
+
+#resetButton{
+    background-color: white;
+    color: black;
+    width: 100px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+p.haveAccount{
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    
+} 
+
+p.haveAccount a{
+    
+    color: black;
+
+}
+p.haveAccount a:hover{
+    text-decoration:underline;
+    color: rgb(235, 68, 8);
+}
+
+
+ .errorMessage{
+    
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 30px; 
+}
+
+/*hotel info page starts*/
+.showAnchor{
+	display:block;
+	color:black;
+}
+.hotelInfoDIv{
+	margin:40px  auto;
+	width:940px;
+	border:1px solid gray;
+	float:left;
+	margin-left:80px;
+}
+.hotelInfoDIv:hover{
+	border:1px solid #0080ff;
+	
+
+}
+.hotelInfoDIv0 {
+	margin-top:150px;
+}
+.hotelNameAndImage{
+	width:700px;
+	float:left;
+	padding:5px;
+}
+.hotelImages{
+	width:310px;
+	float:left;
+}
+.hotelImages img{
+	height:200px
+}
+.amenities{
+	color:green;
+}
+.hotelName{
+    font-size: 30px;
+    font-family: serif;
+    font-weight: 600;
+    height:5px;
+    }
+    
+
+.hotelNameAndAddress{
+	float:left;
+}
+.hotelPrice{
+	float:left;
+	border-left:1px solid #c6c6c6;
+	background: #e3e3e3f5;
+	width:228px;
+	height:149px;
+}
+
+  
+.bookButton,.bookThis{
+	    margin-top: 69px;
+    width: 228px;
+    border: none;
+    background: linear-gradient(93deg,#53b2fe,#065af3);
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.bookThis{
+  width: 228px;
+    background: linear-gradient(93deg,#53b2fe,#323e54);
+    border-radius: 10px;
+    display: inline-block;
+    margin:40px 0px 20px 0px;
+}
+.bookThis:hover{
+    background: linear-gradient(93deg,#74bb1b,#0f6a41);
+	cursor: pointer;
+}
+.startingFrom{
+	font-size: 20px;
+}
+.price{
+    font-size: 40px;
+    }
+/*hotel info page Stops*/
+
+/*rooms info page starts*/
+
+.roomContainer{
+    margin: 100px auto;
+    background: lavender;
+    margin-top: 120px;
+    overflow:hidden;
+}
+.roomInfo{
+	    width: 500px;
+    float: left;
+    text-align: center;
+    text-align:start;
+}
+.roomHotelName{
+	text-align:center;
+}
+.roomHotelNameDiv{
+	margin-bottom: 50px;
+}
+/*rooms info page stops*/
+
+/*My trips page starts*/
+
+.afterBook,.beforeBook{
+	margin-top:100px;
+
+	}
+	
+	/*tr{
+	border-left: none;
+	border-right:none;
+	border-bottom:1px;
+	}
+	td{
+	border-left: none;
+	border-right:none;
+	border-bottom:1px;
+	}
+	th{
+	border-left: none;
+	border-right:none;
+	border-bottom:1px;
+	}*/
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    border-right: 0px white;
+    border-left: 0px white;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .afterBook table {
+    background-color: #eaf6f9;
+    color: #333;
+  }
+  
+  .afterBook th, .beforeBook th  {
+   background-color: #a85252;
+        color: #fff;
+  }
+ 
+  .beforeBook table,.afterBook table {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .viewAllTripsButton {  
+  display:inline-block;
+    border-radius: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right,#53b2fe,#065af3);
+    width: 120px;
+    font-size: 17px;
+    padding: 5px;
+    color: white;
+    border: none;
+  }
+  
+  /* Additional styles specific to this code */
+  body {
+    background-image: linear-gradient(to bottom, black, #15457c);
+  }
+  
+  .yourTrips {
+    color: #fff;
+  }
+  
+  .bookSuccess {
+    color: #fff;
+  }
+
+/* my trips page stops*/
+
+/*room booking taking guest details starts*/
+.detailsDiv{
+     margin: 100px auto;
+    margin-top: 120px;
+    overflow: hidden;
+    width: 500px;
+    }
+    .detailsDiv h1{
+    text-align: center;
+    }
+    #guestForm{
+    font-size:25px;
+    }
+   #guestForm input {
+        width: 100%;
+    height: 32px;
+    font-size:16px;
+        background: lavender;
+}
+#guestForm p{
+	text-align: center;
+	font-weight: bold;
+}
+#guestForm button{
+margin: auto;
+    display: block;
+    width: 130px;
+    font-size: 20px;
+    padding: 5px;
+    background-image: linear-gradient(to bottom,#413e3e,#15457c);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.bookSuccess{
+	color:green;
+}
+
+/*room booking taking guest details starts
+
+
+
+/*Footer  page starts*/
+footer{
+	width:1100px;
+	margin-top:50px;
+
+}
+.subHeading{
+	font-size:10px;
+	font-weight:bold;
+}
+.paragraph{
+	font-size:10px;
+	
+}
+
+.part1{
+	padding-top:20px;
+	padding-bottom:20px;
+		background: #e3e3e3f5;
+		clear:both;
+}
+.part2{
+	background:#d9d9d9;
+}
+..part2 hr{
+	color:black;
+}
+.part3{
+	    background: black;
+    padding: 15px;
+    background-size: 100% 530px;
+    background-repeat: no-repeat;
+}
+.subPart{
+	width:450px;
+	float:left;
+	font-size:13px;
+	padding:0px 40px 0px 40px ;
+}
+.question{
+	font-weight:bold;
+	font-size:16px;
+}
+.answer{
+		font-size:11px;
+		
+}
+
+
+.twitterIcon{
+	float:left;
+		display:block;	
+width: 30px;
+    height: 24px;
+    background-position: -84px -132px;
+    margin:5px 20px 05px 10px;
+    }
+
+.facebookIcon
+{
+	float:left;
+	display:block;
+	    width: 14px;
+    height: 25px;
+    background-position: -162px -126px;
+    margin:5px 10px 05px 15x;
+    
+}
+.copyRight{
+	float:right;
+	color:white;
+}
+
+
+
+
+
+
+ /*<ul class="oneWayOrRoundList">
+ <li><a href="#"> <input type="radio" name="trip-ops" id="onWay" >One Way</a></li>
+ <li><a href="#"><input type="radio" name="trip-ops" id="roundTrip" >Round Trip</a></li>
+</ul> 
+ .oneWayOrRoundList{
+    list-style-type: none;
+ }
+ .oneWayOrRoundList li{
+    float: left;
+    margin-right: 10px;
+    font-weight: bold;
+ }*/
+ 
+     
+    
+
+
+   
